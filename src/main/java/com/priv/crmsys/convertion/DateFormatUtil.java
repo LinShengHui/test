@@ -16,6 +16,7 @@ public class DateFormatUtil {
 		try {
 			return sdf.parse(date);
 		} catch (ParseException e) {
+
 			e.printStackTrace();
 		}
 		return null;
