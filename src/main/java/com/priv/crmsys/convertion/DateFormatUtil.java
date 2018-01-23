@@ -18,6 +18,7 @@ public class DateFormatUtil {
 		} catch (ParseException e) {
 			e.printStackTrace();
 		}
+
 		return null;
 	}
 
